@@ -61,13 +61,7 @@ cd vietapibt1
 ---
 
 ### Bước 3: Cấu hình kết nối CSDL (Nếu cần)
-Mở file `src/main/resources/application.properties` và kiểm tra lại tài khoản SQL Server của máy bạn:
-```properties
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=VietApiDb;encrypt=true;trustServerCertificate=true;
-spring.datasource.username=sa
-spring.datasource.password=caucuong
-```
-*(Hãy đổi `password=caucuong` thành mật khẩu SQL Server của bạn nếu khác).*
+
 
 ---
 
